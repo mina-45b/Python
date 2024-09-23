@@ -1,0 +1,163 @@
+
+Introducción a la programación con Python
+
+
+Python es un interprete
+
+Funciones: acción que permite hacer algo en el programa. La mayoría
+de los lenguajes tienen funciones predetermindas.
+
+Ejem. -> Función: print -> print("hello, world")
+
+Argumentos: entrada a una función que influye en su comportamiento.
+
+Ejem. -> Argumento: hello, world -> print("hello, world")
+
+Bugs: es un error en un programa.
+
+Variables: almacenan valores, número, texto... es un contenedor dentro de un 
+ordenador o programa.
+
+Comentarios: notas en el código que no son interpretadas.
+
+Ejem. 
+Una línea: # -> #Esta es mi nota
+Multilínea: ''' ... ''' o """ ... """
+
+Pseudocódigo: es una forma de expresar una idea, ayuda a estructurar y planificar un programa.
+Divide tareas grandes en pequeñas tareas que se pueden ejecutar con mayor facilidad.
+
+Ejem. #paso 1 ... #paso 2 ...
+
+NOTAS:
+*input* solo espera cadenas de texto.
+
+Espacios: se agregan con fines estéticos para la comprensión de la lengua. 
+
+Ejem. print("hello, ", name)
+
+Múltiples argumentos: algunas funciones puden recibir varios argumentos.
+
+Ejem. -> , -> print("hello,",name)
+La ',' nos sirve para separar los argumentos
+
+ Concatenar: permite unir cadenas de texto.
+
+ Ejem. -> + -> "hello, " + name
+
+NOTAS:
+cadenas - str
+
+Paramétros: entradas que pasas a una función. def(a,b)
+Argumentos: cuando usas la función y pasas los datos. def("juan","lara")
+
+FUNCIÓN PRINT 
+Si buscamos en la documentación (docs.python.org) encontraremos información de como funcionan las funcines predetermindas de Python.
+En este ejemplo tenemos la función Print:
+
+print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+
+Paramétros con nombre:
+
+*objects -> signfica que puedo tomar cualquier número de objetos.
+sep=' ' -> otro paramétro que introduce por defecto un espacio en blanco.
+end='\n' -> significa que al terminar la función se crea un salto de línea.
+
+Caracteres de escape: son caracteres que nos permiten usar caracteres definidos dentro del lenguaje sin 
+generar conflictos.
+
+Ejem. 
+-> ' ' -> print('hello, "friend"')
+->  \ -> print("hello, \"friend\"")
+
+Cadena de formato o f-String: permiten formatear un cadena de forma especial.
+
+Ejem. -> f  { }-> print(f"hello, {name}")
+
+Método: es una función que se construye en un tipo de valor.
+
+MÉTODOS DE CADENAS 
+
+-Remover espacios en blanco: Ejem. name = name.strip() - lstrip() / rstrip()
+-Poner en mayúsculas la primera letra de la entrada del usuario: name = name.capitalize()
+-Capitalizar (poner en mayúsculas la primera letra de la entrada) basado en el titulo: name = name.title()
+-Dividir una cadena en varias cadenas más pequeñas: Ejem. name.split(" ")
+
+NOTAS:
+entero - interpretadas
+
+OPERADORES
+Suma +: agrega dos números
+Resta -: sustrae el segundo número del primero.
+Múltiplicación *: multiplica dos números.
+División /: divide el primer número por el segundo.
+Módulo %: da el resto de una división.
+
+Modo interactivo: es cuando se ejecuta el interprete sin la necesidad de crear un archivo.
+
+Conversión de tipos: es la capacidad de cambiar un tipo de dato a otro.
+
+
+NOTAS
+flotante - float
+
+float: decimal, valor de punto flotante.
+
+Redondear valor: round, redondea al entero más cercano.
+
+round(number[, ndigits])
+
+Paramétros:
+-number: recibe un número, si no se selecciona digitos, redondea al entero más cercano.
+-ndigits: especifica cuantos digitos debe tener.
+
+Formato númerico: trata de presentar números de manera legible y visualmente atractiva.
+
+*Los decimales float, no representan datos con una presición exacta.
+
+NOTAS
+definir - def
+
+Ámbito(scope): se refiere al alcance en el que una variable puede ser utilizada.
+Una variable solo existe en el contexto en elque ha sido definida.
+
+Ejem. -> def main():
+            name = input("What's your name? ")
+            hello(name)
+
+NOTAS
+valores de retorno - return
+
+Valores de retorno: son la joya que una función entrega después de realizar ciertas acciones.
+
+Condicionales: son la capacidad de hacer preguntas y responder preguntas, con la posibilidad de tomar caminos
+de acuerdo a las decisiones tomadas.
+
+Símbolos condicionales:
+Mayor que > : Este símbolo se utilzia para preguntar si un valor es mayor que otro.
+Mayor o igual que >= : Representa la pregunta de si un valor es mayor o igual a otro.
+Menor que < : Pregunta si un valor es menor que otro.
+Menor o igual que <= : Indica si un valor es menor o igual a otro.
+Igual a == : Utilizamos dos signos iguales para preguntar si dos cosas son iguales.
+No igual a != : El signo de exclamación seguido de un igual significa preguntar si algo no es igual a otro valor.
+
+NOTAS
+condición - if - elif - else
+
+if: nos permite tomar decisiones basadas en condiciones específicas.
+
+Ejem. 
+if -> if x < y:
+            print("x is less than y")
+            
+elif -> if x < y:
+            print("x is less than y")
+        elif x > y:
+            print("is greater than y")
+
+else -> if x < y:
+            print("x is less than y")
+        elif x > y:
+            print("is greater than y")
+        else:
+            print("x is equal to y")
