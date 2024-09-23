@@ -1,5 +1,6 @@
-
 Introducción a la programación con Python
+
+UNIDAD 1 
 
 
 Python es un interprete
@@ -129,35 +130,3 @@ NOTAS
 valores de retorno - return
 
 Valores de retorno: son la joya que una función entrega después de realizar ciertas acciones.
-
-Condicionales: son la capacidad de hacer preguntas y responder preguntas, con la posibilidad de tomar caminos
-de acuerdo a las decisiones tomadas.
-
-Símbolos condicionales:
-Mayor que > : Este símbolo se utilzia para preguntar si un valor es mayor que otro.
-Mayor o igual que >= : Representa la pregunta de si un valor es mayor o igual a otro.
-Menor que < : Pregunta si un valor es menor que otro.
-Menor o igual que <= : Indica si un valor es menor o igual a otro.
-Igual a == : Utilizamos dos signos iguales para preguntar si dos cosas son iguales.
-No igual a != : El signo de exclamación seguido de un igual significa preguntar si algo no es igual a otro valor.
-
-NOTAS
-condición - if - elif - else
-
-if: nos permite tomar decisiones basadas en condiciones específicas.
-
-Ejem. 
-if -> if x < y:
-            print("x is less than y")
-            
-elif -> if x < y:
-            print("x is less than y")
-        elif x > y:
-            print("is greater than y")
-
-else -> if x < y:
-            print("x is less than y")
-        elif x > y:
-            print("is greater than y")
-        else:
-            print("x is equal to y")

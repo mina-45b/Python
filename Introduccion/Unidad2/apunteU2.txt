@@ -1,0 +1,58 @@
+Introducción a la programación con Python
+
+UNIDAD 2
+
+Condicionales: son la capacidad de hacer preguntas y responder preguntas, con la posibilidad de tomar caminos
+de acuerdo a las decisiones tomadas.
+
+Símbolos condicionales:
+Mayor que > : Este símbolo se utilzia para preguntar si un valor es mayor que otro.
+Mayor o igual que >= : Representa la pregunta de si un valor es mayor o igual a otro.
+Menor que < : Pregunta si un valor es menor que otro.
+Menor o igual que <= : Indica si un valor es menor o igual a otro.
+Igual a == : Utilizamos dos signos iguales para preguntar si dos cosas son iguales.
+No igual a != : El signo de exclamación seguido de un igual significa preguntar si algo no es igual a otro valor.
+
+NOTAS
+condición - if - elif - else - or - != - == - and
+
+if: nos permite tomar decisiones basadas en condiciones específicas.
+
+Ejem. 
+if -> if x < y:
+            print("x is less than y")
+            
+elif -> if x < y:
+            print("x is less than y")
+        elif x > y:
+            print("is greater than y")
+
+else -> if x < y:
+            print("x is less than y")
+        elif x > y:
+            print("is greater than y")
+        else:
+            print("x is equal to y")
+            
+
+Indentación: aumentar la sangría de la línea de código.
+
+Dos puntos: los dos puntos son como señales de inicio para un bloque de código.
+
+NOTAS:
+En Python el uso de sangría se vuelve casi obligatorio.
+
+Encadenar operadores de comparación: python permite encadenar operadores de comparación:
+
+Ejem. if 90 <= score <= 100:
+            print("Grade: A")
+
+Módulo: es el resto de una división.
+
+Booleano: es un tipo de dato que solo puede tener dos valores: True (verdader)
+o False(falso).
+
+Expresiones pythonicas: son aquellas que siguen el estilo y las convenciones particulares de Python.
+Se refiere a la manera peculiar y aplaudida de hacer las cosas en esre lenguaje.
+
+Ejem.  return True if n % 2 == 0 else False

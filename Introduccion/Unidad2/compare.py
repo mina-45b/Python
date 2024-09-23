@@ -22,10 +22,28 @@ elif x == y:
     print("x is equal to y")'''
     
 #OPCION 3 ELSE
-if x < y:
+'''if x < y:
     print("x is less than y")
 elif x > y:
     print("is greater than y")
 else:
-    print("x is equal to y")
+    print("x is equal to y")'''
 
+#OPCION 4 OR
+'''if x < y or x > y:
+    print("x is not equal to y")
+else:
+    print("x is equal to y")'''
+    
+#OPCION 5 !=
+'''if x != y:
+    print("x is not equal to y")
+else:
+    print("x is equal to y")'''
+    
+#OPCION 6 ==
+if x == y:
+    print("x is equal to y")
+else:
+      print("x is not equal to y")
+    
