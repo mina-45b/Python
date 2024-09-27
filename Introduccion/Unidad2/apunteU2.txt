@@ -56,3 +56,9 @@ Expresiones pythonicas: son aquellas que siguen el estilo y las convenciones par
 Se refiere a la manera peculiar y aplaudida de hacer las cosas en esre lenguaje.
 
 Ejem.  return True if n % 2 == 0 else False
+
+NOTAS
+match - similar a switch en otros lenguajes.
+
+match: es una forma eficiente y legible de implementar condicionales, especialmente útil cuando queremos
+realizar múltiples comparaciones y ejecutar bloques de código basado en el valor de una expresión.

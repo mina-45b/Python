@@ -1,0 +1,20 @@
+Introducción a la programación con Python
+
+UNIDAD 3
+
+while: un bucle en python, permite ejecutar un bloque de código una y otra vez
+hasta que una condición específica se cumpla.
+
+NOTAS
+Ctrl + C oara cerrar las ventana cuando se produzcan bucle infinitos.
+
+NOTAS
+ i += 1 -> i = i + 1
+
+ for: simplifica la iteración sobre una lista de elementos.
+
+ list: lista de datos, es un forma de contener múltiples valores en una única variable.
+ Ejem. [0, 1, 2]
+
+ NOTAS 
+ Ejem. range(3) -> genera una lista de valo r[0, 1, 2]
