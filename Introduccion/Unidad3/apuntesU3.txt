@@ -17,4 +17,12 @@ NOTAS
  Ejem. [0, 1, 2]
 
  NOTAS 
- Ejem. range(3) -> genera una lista de valo r[0, 1, 2]
+ Ejem. range(3) -> genera una lista de valor [0, 1, 2]
+
+NOTAS
+dict - diccionarios
+
+diccionarios: son una estructura de datos que permiten asociar un valor con otro,
+es similiar a un diccionario humano, relaciona palabras con definiciones.
+Utilizan claves y valores para establecer estas asociaciones bidimensionales.
+
