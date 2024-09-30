@@ -40,3 +40,8 @@ por try se ejecuta sin lanzar ninguna excepción.
 break: para salir del bucle y avanzar en el programa.
 
 pass: permite ignorar la excepción
+
+Depuración: es el proceso de indentificar y corregir estos errores para lograr que nuestro programa funcione como esperamos.
+
+breakpoibnts: permite especificar en que líneas de código debes pausar para verificar esa línea.
+
