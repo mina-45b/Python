@@ -1,0 +1,42 @@
+Introducción a la programación con Python
+
+UNIDAD 4
+
+Excepción: se refieren a problemas que surgen en nuestro código. Son indicadores
+que algo ha salido mal en nuestro programa.
+
+Error de sintaxis: es cuando no seguimos correctamente las reglas del lenguaje de
+programación, similar a comerter un error gramatical al escribrir.
+
+SyntaxError
+
+Este error debe ser corregido por uno mismo.
+
+NOTAS
+unterminated string literal: algo que se escribio literalmente y no se ha terminado.
+
+Errores de valor: se producen cuando el programa recibe un tipo de dato 
+diferente al esperado.
+
+ValueError
+
+try: intenta ejecutar las líneas.
+Ejm. try:
+        x = int(input("What's x?"))
+        print(f"x is {x}")
+
+except: se especifica que hacer si se produce ese tipo de error.
+Ejem. except ValueError:
+        print("x is not aninterger")
+
+Error de nombre: se refiere a manipulaciones incorrectas de nombres de variables.
+
+NameError
+
+else: no solo se limitar a los condicionales if y elseif, sino que también se integra
+de manera interesante en bloques try-except. Se utiliza para indicar qué código ejecutar si la sección protegida
+por try se ejecuta sin lanzar ninguna excepción.
+
+break: para salir del bucle y avanzar en el programa.
+
+pass: permite ignorar la excepción
