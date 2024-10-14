@@ -1,0 +1,39 @@
+Introducción a la programación avanzada
+
+UNIDAD 1
+
+Biblioteca: son conjuntos de código preescrito que podemos utilizar en nuestros propios programas.
+
+Módulos: son una parte esencial de las bibliotecas, contienen funciones y características específicas
+que podemos incorporar en nuestros proyectos.
+
+La principal ventaja de las bibliotecas y Módulos es la reutilización de código.
+
+Bibliotecas de Python:
+
+- random
+- statistics
+- sys
+
+import: para utilizar las funciones de un módulo en nuestros propios programas, necesitamos
+usar la palabra clave 'import' seguida del nombre del módulo.
+
+ramdon:
+radom.choice(seq)
+random.randint(a,b)
+radom.shuffle(x)
+
+from: se utiliza al importar funciones de un módilo. Nos ser más específicos y seleccionar solo lo que necesitamos.
+
+argumento de líneas de comandos (command-line argumets): Nos permite interactuar con nuestro porgrama directamente desde la terminal.
+
+argv: vector de argumentos.
+
+sys:
+sys.argv: Al ejecutar un programa, sys.argv nos propociona una lista de argumentos.
+sys.exit
+
+IndexError: list index out of range: Este error sucede cuando intentamos acceder a un elemento en una posición que no existe 
+dentro de la lista. 
+
+"" <- Escribimos entre comillas para que un fragmente se cuente como un solo parámetro
