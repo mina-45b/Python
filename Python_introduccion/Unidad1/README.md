@@ -54,7 +54,7 @@ Divide tareas grandes en pequeñas tareas que se pueden ejecutar con mayor facil
 
 ### FUNCIÓN PRINT 
 
-Si buscamos en la documentación [docs.python.org] (https://docs.python.org/3/) encontraremos información de como funcionan las funcines predetermindas de Python.
+Si buscamos en la documentación [docs.python.org](https://docs.python.org/3/) encontraremos información de como funcionan las funcines predetermindas de Python.
 
 En este ejemplo tenemos la función Print:
 > print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
