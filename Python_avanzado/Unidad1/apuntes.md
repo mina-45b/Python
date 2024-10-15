@@ -37,3 +37,24 @@ IndexError: list index out of range: Este error sucede cuando intentamos acceder
 dentro de la lista. 
 
 "" <- Escribimos entre comillas para que un fragmente se cuente como un solo parámetro
+
+Slices: es un subconjunto de una estructura de datos, como una lista.
+En Python, podemos tomar slices de listas utilizando una sintaxis fácil. Al añadir
+corchetes al final del nombre de la lista, especificamos el inicio y el final del subconjunto
+que queremos conservar.
+
+Puedes cortar o "slicing" desde cualquier punto, incluso desde el final.
+Utiliza un número negativo para contar en dirección opuesta desde el finalde la lista.
+
+Ejem. -> for arg in sys.argv[1:-1]
+
+packages: es como un regalo lleno de funciones y capacidades adicionales que otros programadores han creado para nosotros.
+Es una biblioteca de terceros que se puede instalar para acceder a estas funcionalidades.
+
+pipy.org: sitio web que contine paquetes que podeos explorar, descargas e instalar.
+
+cowsay: es un paquete en python que una vaca hable.
+
+-[!IMPORTANT]
+En entornos de Linux, no se pueden instalar los paquetes directamente, una alternativa es crear un entorno virtual aislado para poder instalarlo ahí directamente.
+
