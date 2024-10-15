@@ -55,6 +55,6 @@ pipy.org: sitio web que contine paquetes que podeos explorar, descargas e instal
 
 cowsay: es un paquete en python que una vaca hable.
 
--[!IMPORTANT]
+_[!IMPORTANT]_
 En entornos de Linux, no se pueden instalar los paquetes directamente, una alternativa es crear un entorno virtual aislado para poder instalarlo ahí directamente.
 
