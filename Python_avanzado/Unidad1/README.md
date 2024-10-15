@@ -58,3 +58,5 @@ cowsay: es un paquete en python que una vaca hable.
 [!IMPORTANT]
 En entornos de Linux, no se pueden instalar los paquetes directamente, una alternativa es crear un entorno virtual aislado para poder instalarlo ahí directamente.
 
+>[!IMPORTANT]
+> Key information users need to know to achieve their goal.
