@@ -30,7 +30,7 @@ Divide tareas grandes en pequeñas tareas que se pueden ejecutar con mayor facil
 
 **Ejem.** #paso 1 ... #paso 2 ...
 
-> [!NOTA]
+> [!NOTE]
 > **_input_** solo espera cadenas de texto.
 
 *Espacios:* se agregan con fines estéticos para la comprensión de la lengua. 
@@ -46,7 +46,7 @@ Divide tareas grandes en pequeñas tareas que se pueden ejecutar con mayor facil
 
  **Ejem.** -> + -> "hello, " + name
 
-> [!NOTA]
+> [!NOTE]
 > Cadenas - _str_
 
 *Paramétros:* entradas que pasas a una función. def(a,b)
@@ -84,7 +84,7 @@ En este ejemplo tenemos la función Print:
 - Capitalizar (poner en mayúsculas la primera letra de la entrada) basado en el titulo: name = name.title()
 - Dividir una cadena en varias cadenas más pequeñas: **Ejem.** name.split(" ")
 
-> [!NOTA]
+> [!NOTE]
 > entero - _int_
 
 ### OPERADORES
@@ -98,7 +98,7 @@ En este ejemplo tenemos la función Print:
 
 *Conversión de tipos:* es la capacidad de cambiar un tipo de dato a otro.
 
-> [!NOTA]
+> [!NOTE]
 > flotante - _float_
 
 *float:* decimal, valor de punto flotante.
@@ -112,10 +112,10 @@ En este ejemplo tenemos la función Print:
 
 *Formato númerico:* trata de presentar números de manera legible y visualmente atractiva.
 
-> [!NOTA]
+> [!NOTE]
 > Los decimales float, no representan datos con una presición exacta.
 
-> [!NOTA]
+> [!NOTE]
 > definir - _def_
 
 *Ámbito(scope):* se refiere al alcance en el que una variable puede ser utilizada.
@@ -125,7 +125,7 @@ Una variable solo existe en el contexto en elque ha sido definida.
                 name = input("What's your name? ")
                 hello(name)
 
-> [!NOTA]
+> [!NOTE]
 > valores de retorno - return
 
 *Valores de retorno:* son la joya que una función entrega después de realizar ciertas acciones.
