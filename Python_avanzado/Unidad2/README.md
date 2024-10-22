@@ -28,3 +28,12 @@ Consideraciones en las pruebas unitarias:
 - Destacamos la importancia de no probar efectos secundatios directamente (como una impresión), ya que las pruebas deben centrarse en valores de retorno.
 
 - Se sugiere la simplificacion de las pruebas para grantizar su comprensió y eficiencia.
+
+Colecciones de test:  
+
+Imaginemos que no estamos limitados a una sola prueba, sino que queremos estructurar nuestras pruebas en una carpeta llamada "test". Varios frameworks, como pytest, admiten este enfoque, proporcionándonos flexibilidad y organización.
+
+>[!NOTE]
+>Para que pytest reconozca la carpeta como un paquete, crearemos un archivo "init.py" dentro de la carpeta.
+
+Ejem. -> test/__init__.py
