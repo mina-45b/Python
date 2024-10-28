@@ -40,3 +40,14 @@ sorted(iterable, /, *, key=None, reverse=False)
 
 >[!NOTE]
 >Utilizar strip para eliminar espacios en blanco al final de las líneas es útil, pero se debe considerar si realmente es necesario. A veces, otras funciones como readlines pueden manejarlo automáticamente.
+
+CSV (Valores Separados por Coma): permiten organizar y manipular fácilmente los datos.
+
+En python utilizamos la función sorted() con un parámetro adcional llamado key, que nos permitirá especificar la clave según la cual deseamos ordenar.
+
+Las funciones lambda son funciones anónimas sin nombre que se utilizan generalmente para operaciones simples y se definen en el momento en que se necesitan.
+
+Lambda como función anónima:
+- A diferencia de def, no tiene un nombre asociado.
+- se usa directamente donde se necesita, en este caso, como la clave para sorted().
+- Puedes usar lambda tantas veces como necesites en contextos donde una función anónima es suficiente.
