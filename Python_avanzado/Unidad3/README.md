@@ -51,3 +51,17 @@ Lambda como función anónima:
 - A diferencia de def, no tiene un nombre asociado.
 - se usa directamente donde se necesita, en este caso, como la clave para sorted().
 - Puedes usar lambda tantas veces como necesites en contextos donde una función anónima es suficiente.
+
+
+Biblioteca csv: esta herramienta nos permite leer y escribir archivos CSV de manera más eficiente, evitando problemas con las comas y otros caracteres especiales.
+>import csv
+
+documentación: docs.python.org/3/library/csv.html
+
+Consideraciones sobre modificaciones en Archivos:
+- Es posible modificar el archivo mientras lo leemos, pero debemos tener en cuenta que el archivo es secuencial.
+- Se debe mantener un registro de la posición en el archivo para realizar cambios eficientemente.
+- Podemos solicitar al usuario ingresar datos para escribir en el archivo.
+- La versatilidad del csv.reader nos permite trabajar con diversos datos.
+
+csv.DictReader: nos permite acceder a los datos como diccionarios en lugar de listas. Esto significa que podemos referenciar las columnas por sus nombres, lo cual es más intuitivo y menos propenso a errores.
