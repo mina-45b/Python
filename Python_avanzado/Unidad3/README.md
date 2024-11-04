@@ -65,3 +65,9 @@ Consideraciones sobre modificaciones en Archivos:
 - La versatilidad del csv.reader nos permite trabajar con diversos datos.
 
 csv.DictReader: nos permite acceder a los datos como diccionarios en lugar de listas. Esto significa que podemos referenciar las columnas por sus nombres, lo cual es más intuitivo y menos propenso a errores.
+
+
+PIL Librería: es una biblioteca que facilita la navegación y manipulación de archivos de image.
+
+Tutorial: pillow.readthdocs.io
+
