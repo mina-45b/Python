@@ -18,8 +18,8 @@ if username and domain.endswith(".edu"):
 else:
     print("Invalid")'''
     
-#r cadena sin formato
-if re.search(r".+@.+\.edu", email):
+#r cadena sin formato, \. significa que quiero que este "." y no un patron
+if re.search(r"^\w+@\w+\.edu$", email):
     print("Valid")
 else:
     print("Invalid")

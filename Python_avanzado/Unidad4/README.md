@@ -27,6 +27,44 @@ Símbolos especiales de patron:
 - Interrogación(?): cero o una repetición del elemento anterior.
 - Llaves({m}, {m,n}): un número exacto(m) o un rango (m a n) de repeticiones.
 
+- Signo de intercalación (^): Indica el inicio de la cadena.
+- Signo dolar ($): Representa el final de la cadena.
 
+Alternativas en corchetes:
+- Podemos usar corchete para especificar conjuntos de caracteres deseado. Ejem: [a-h] coincidirá con cualquier letra de la a a la h.
 
+Operador de complemento:
+- El simbolo de intercalación dentro de los corchetes excluye caracteres. Ejem: [^123] conciderá cualquier carácter excepto 1, 2 o 3.
 
+Símbolo de interrogación y repeticiones:
+- El símbolo de interrogación indica 0 o 1 repeticicón de un carácter.
+- El símbolo de más indica una o más repeticiones del carácter.
+- Ejem: a? concide con 'a' o nada; b+ coincide con 'b' una o más veces.
+
+Rangos y Atajos:
+- Dentro de corchetes, podemos usar guiones para representar rangos.
+- Ejemplo: [0-9] coincide con cualquier dígito.
+
+Patrones comunes:
+- \d: Representa cualquier dígito decimal.
+- \D: Representa cualquier cosa que no sea un dígito decimal.
+- \s: Significa caracteres de espacio en blanco (espacio, tabulador, etc).
+- \S: Representa cualquier cosa que no sea un carácter de espacio en blanco.
+- \w: Es un carácter de palabra (letras, números, guión bajo).
+- \W: Es el opuesto de \w y representa todo excepto caracteres de palabra.
+
+Agrupación alternativa:
+- Los paréntesis () agrupan patrones. Ejem: (com|edu) busca 'com' o 'edu'.
+- La barra vertical | significa 'o'. Así que (a|b) busca 'a' o 'b'.
+
+Manejo de Espacios:
+- Puedes usar [A-Za-z0-9] para aceptar letras, números y espacios.
+- O, puedes usar [\w\s] para incluir caracteres de palabra y espacios.
+
+Sensibilidad a Mayúsculas:
+- \w maneja tanto minúsculas como mayúsculas.
+- Si es necesario, puedes forzar la entrada de minúsculas con lower() o convertir la expresión a minúscula.
+
+Banderas de re.search:
+- re.IGNORECASE: Permite que la búsqueda ignore las diferencias entre mayúsculas y minúsculas.
+- re.MULTILINE: Configura la función para reconocer patrones en varias líneas de texto.
