@@ -68,3 +68,9 @@ Sensibilidad a Mayúsculas:
 Banderas de re.search:
 - re.IGNORECASE: Permite que la búsqueda ignore las diferencias entre mayúsculas y minúsculas.
 - re.MULTILINE: Configura la función para reconocer patrones en varias líneas de texto.
+
+Explorando las funciones:
+- re.match: Inicia la coincidencia desde el principio de la cadena sin la necesidad de '^'
+- re.fullmatch: Coincide con el inicio y el final de la cadena, sin '^' o '$'
+
+> Utiles cuando se recopilan datos de formularios, como Google Forms, ya que los usuarios pueden introducir información con formatos diversos.
