@@ -74,3 +74,15 @@ Explorando las funciones:
 - re.fullmatch: Coincide con el inicio y el final de la cadena, sin '^' o '$'
 
 > Utiles cuando se recopilan datos de formularios, como Google Forms, ya que los usuarios pueden introducir información con formatos diversos.
+
+Operador Morsa: representado por :=, no solo asigna valores, sino que también evalúa expresiones en la misma línea.
+En lugar de dividir la asignación y la evaluación, el operador walrus hace ambas cosas en una sola línea, simplificando el código.
+
+Ejem -> if matches := re.search(r"^(.+),*(.+)$",name):
+> En el ejemplo el operador walrus asigna el resultado de la búsqueda a matches, y al mismo tiempo, evalúa si hay coincidencias.
+
+re.sub(): esta función nos permite realizar sustituciones en una cadena basadas en un patrón de expresión regular. 
+
+Al utilizarla, proporcionamos el patrón que deseamos buscar, la cadena la de reemplazo y la cadena en la que deseamos realizar la sustitución.
+
+re.sub(pattern, repl, string, count=0, flags=0)
