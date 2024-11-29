@@ -1,15 +1,15 @@
-Introducción a la programación avanzada
+# Introducción a la programación avanzada
 
-UNIDAD 5
+### UNIDAD 5
 
-Programación orientada a objetos (POO)
+### Programación orientada a objetos (POO)
 
 tuple: es una colección de valores, similar a una lista, pero con una característica fundamental, es inmutable. Esto significa que, una vez creada, no puedes cambiar sus elementos.
 
->Se recomienda su uso cuando necesitas almacenar datos que no deberian poder editarse.
+> Se recomienda su uso cuando necesitas almacenar datos que no deberian poder editarse.
 
->[!IMPORTANT] 
->Las tuplas no soporta la asignación de elementos
+> [!IMPORTANT] 
+> Las tuplas no soporta la asignación de elementos
 
 Diccionarios (objetos dict): son colecciones de claves y valores.
 
@@ -55,3 +55,40 @@ Ejem. def __init__(self, name, house):
 
 Ejem.   if not name:
             raise ValueError("Missing name")
+
+__str__ (The string Method): Este método especial se activa automáticamente cada vez que intentamos imprimir un objeto como una cadena, ofreciéndonos la oportunidad de definir cómo queremos que se vea esa representación.
+
+## Definir una propia función __str__:
+- Definir el método __str_ dentro de la clase, siguiendo el patrón def __str__(self):.
+- Utilizar la referencia al objeto (self) para acceder a sus atributos y construir la cadena de representación que se desea.
+- Retornar la cadena que se quiere imprimir cuando el objeto sea llamado con la función print.
+
+## Diferencia entre __str__ y __repr__:
+- __str__: Pensado para los usuarios fianles del programa, proporciona una representación legible del objeto.
+- __repr__: Pensado para los desarrolladores, ofrece una representación detallada del objeto que incluye información sobre su tipo y estado interno.
+
+Ejemplo de la creación de un método propio:
+def charm(self):
+Método que permité a un estudiante lanzar un hechizo mágico.
+
+Propiedades (Getter y Setter): son herramientas que nos permiten controlar el acceso y la modificación de los atributos de una clase, lo qu enos brinda más control sobre cómo interactúan nuestros objetos y cómo se manejan los datos.
+
+Propiedades:
+- Nos permiten definir métodos especiales para acceder y modificar atributps de una clase de una manera más controlada y segura.
+- Podemos encapsular la lógica para obtener y establecer valores de atributos, lo que nos permite realizar validaciones o realizar acciones adicionales cuandose accede o modifica un atributo.
+
+Getter y Setter:
+- Los getters son métodos que nos permiten obtener el valor de un atributo de una clase.
+- Los setter son métodos que nos permiten establecer el valor de un atributo de una clase.
+- Estos métodos nos ayudan a obtener la coherencia y la intergridad de nuestros datos al imponer reglas y validaciones sobre cómo se pueden acceder y modificar los atributos.
+
+Implementación de Getter y Setters:
+- Utilizaos la sintaxis @property para definir getter y setter.
+- Los getter nos permiten acceder a los atributos de manera controlada, mientras que los setter nos permiten modificarlos de manera segura, aplicando lógica adicional si es necesario.
+
+> se coloca _ al nombre de una setter, o getter para evitar conflictos en el caso de tener variables con el mismo nombre.
+
+#getter
+    @property
+    def house(self):
+        return self._house
