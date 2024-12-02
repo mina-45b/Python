@@ -88,7 +88,29 @@ Implementación de Getter y Setters:
 
 > se coloca _ al nombre de una setter, o getter para evitar conflictos en el caso de tener variables con el mismo nombre.
 
-#getter
+# getter
     @property
     def house(self):
         return self._house
+
+Los tipos de datos como int, str, list y dict en realidad son clases en Python.
+Cada vez que usamos estos tipos de datos, estamos creando objetos de esas clases.
+> class int(x, base=10)
+> class str(object='')
+> class list([iterable])
+docs.python.org/3/library/functions.html#int
+
+Las clases viene con métodos, que son funcioens incorporadas que puedes ser llamadas sobre los objetos. Por ejemplo, lower() para convertir cadena a minúsculas y append() para agregar elementos a listas.
+ > str.lower()
+ > str.strip([chars])
+ > list.append(x)
+docs.python.org/3/library/stdypes.html#str
+docs.python.org/3/library/stdypes.html#list
+docs.python.org/3/library/stdypes.html#dict
+
+ La función type() nos permite concer el tipo de un objeto en Python. Esto nos ayuda a entender mejor cómo Python maneja los datos y cómo podemos interactuar con ellos de manera efectiva.
+ > print(type(50))
+
+Métodos de clase: Son funciones asociadas a la clase en su conjunto, permitiéndonos operar a nivel de clase en lugar de instacias específicas. Se definen con el decorador @classmethod y acceden a la clase mediante el parámetro cls.
+
+Variables de clase: Estas son compartidas por todas las instancias de la clase y se definen fuera de cualquier método. Son una manera eficiente de almacenar información a nivel de clase.

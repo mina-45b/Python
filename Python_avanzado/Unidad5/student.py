@@ -13,6 +13,12 @@ class Student:
     def __str__(self):
         return f"{self.name} from {self.house}"
     
+    @classmethod
+    def get(cls):
+        name = input("Name: ")
+        house = input("House: ")
+        return cls(name, house)
+    
     #getter
     @property
     def house(self):
@@ -92,6 +98,9 @@ def main():
     
     print("Expecto Patronum!")
     print(student.charm())
+    
+    #Método de clase
+    '''student = Student.get()'''
     
     '''if student["name"] == "Padma":
         student["house"] = "Ravenclaw"'''
