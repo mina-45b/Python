@@ -114,3 +114,26 @@ docs.python.org/3/library/stdypes.html#dict
 Métodos de clase: Son funciones asociadas a la clase en su conjunto, permitiéndonos operar a nivel de clase en lugar de instacias específicas. Se definen con el decorador @classmethod y acceden a la clase mediante el parámetro cls.
 
 Variables de clase: Estas son compartidas por todas las instancias de la clase y se definen fuera de cualquier método. Son una manera eficiente de almacenar información a nivel de clase.
+
+Herencia: permite diseñar clases de manera jerárquica, donde una clase puede heredar atributos (métodos y variables) de otra clase.
+Esta capacidad de compartir y extender funcionalidad facilita la reutilización de código y la organización estructurada de clases.
+
+Ejemplo: class Wizard:
+            def __init__(self, name):
+                if not name:
+                    raise ValueError("Missing name")
+                self.name = name
+
+        class Student(Wizard):
+            def __init__(self, name, house):
+                super().__init__(name)
+                self.house = house
+
+Sobrecarga de Operaadores: es una funcionalidad que te permite definir tu propia interpretación para operadores comunes, como el signo de suma o resta. En lugar de limitarnos a las operaciones estándar, podemos personalizar estas funciones según nuestras necesidades.
+
+docs.python.org/3/reference/datamodel.html#special-method-names
+
+> object.__add__(self, other)
+
+
+
