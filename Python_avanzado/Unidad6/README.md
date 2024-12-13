@@ -38,3 +38,19 @@ mypy.readthedocs.io
 
 Cadenas de documentación
 peps.python.org/pep-0257/
+
+### argparse
+
+A menudo queremos interactuar con el usuario de diversas maneras. Una forma común es a trabés de la línea de comandos, donde el usuario puede proporcionar información adicional al ejecutar el programa. En lugar de depender únicamente del prompr, argparse nos ofrece una forma más organizada de manjear estos argumentos de línea de comandos.
+
+dosc.python.org/3/library/argparse.html
+
+### Unpacking
+
+Desempaquetar es una técnica en Python que nos permite trabajar con estructuras de datos, como listas o diccionarios, de manera más flexible y sencilla. Nos ayuda a dividir valores almacenados en una estructura en variables individuales, facilitando el manejo de datos complejos.
+
+Para desempaquetar listas usamos *
+
+Para desempaquetar diccionarios usarmos **
+
+Funciones como Argumentos Variables: Podemos crear funciones que aceptan un número variable de argumentos poscionales y con nombre utilizando *args y **kwargs
