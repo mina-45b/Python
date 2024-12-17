@@ -54,3 +54,19 @@ Para desempaquetar listas usamos *
 Para desempaquetar diccionarios usarmos **
 
 Funciones como Argumentos Variables: Podemos crear funciones que aceptan un número variable de argumentos poscionales y con nombre utilizando *args y **kwargs
+
+### Map
+
+Una herramienta valiosa que Python nos ofrece es map. Esta función nos permite aplicar otra función a cada elemento de una secuencia, como una lista.
+Imagina forzar a mayúsculas una lista de palabras, para ello podemos utilizar map y aplicar la función upper a cada palabra de manera eficiente.
+
+docs.python.org/3/library/functions.html#map
+
+- Comprensión de lista: es una forma concisa y elegante de construir listas en Python sin necesidad de usar bucles tradicionales o la función append. Permite crear listas sobre la marcha utilizando una única línea de código, lo que a menudo resulta en un códifo más limpio y legible.
+
+- Comprensión de diccionarios
+
+### Filter
+
+docs.python.org/3/library/functions.html#filter
+
