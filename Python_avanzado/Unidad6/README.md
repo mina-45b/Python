@@ -70,3 +70,13 @@ docs.python.org/3/library/functions.html#map
 
 docs.python.org/3/library/functions.html#filter
 
+### enumerate()
+Python nos ofrece la función incorporada enumerate(). Esta función nos permite iterar sobre una secuencia y obtener tanto el índice como el valor de cada elemento de manera más eficiente.
+
+docs.python.org/3/library/functions.html#enumerate
+
+> enumerate(iterable, start=0)
+
+Generators: El uso de generadores en Python, es una técnica que nos permite generar y devolver valores de manera eficiente, uno a la vez, sin cargar la memoria.
+
+yiel: devuelve un iterador
