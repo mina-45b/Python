@@ -24,7 +24,7 @@ En Python, no hay una característica específica que  haga una variable sea con
 
 ### Type hints, mypy
 
-En Python, un lenguja tipado dinámicamente, las variables no están fuertemente tipadas. Esto significa que no es necesario especificar el tipo de variable al declararla, permitiendo una flexibilidad considerble.
+En Python, un lenguaje tipado dinámicamente, las variables no están fuertemente tipadas. Esto significa que no es necesario especificar el tipo de variable al declararla, permitiendo una flexibilidad considerble.
 
 docs.python.org/3/library/typing.html
 
